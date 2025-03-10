@@ -144,7 +144,8 @@ with col2:
         st.error(st.session_state.feedback)
 
     if st.session_state.game_over:
-        st.success("🎉 Congratulations! You completed the game!")
+        st.success("🎉 Congratulations! You completed the ESS Kahlo game, you are a true detective!")
+        st.balloons()
 
     if st.session_state.game_over or st.session_state.wrong_answer:
         if st.button("Restart"):
