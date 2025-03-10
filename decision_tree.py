@@ -8,7 +8,7 @@ st.set_page_config(
 
 # Media list for each question (two per question)
 question_media = [
-    ("pic11.jpeg", "vid12.mp4"),
+    ("vid12.mp4", "pic11.jpeg"),
     ("pic21.jpg", "pic22.jpg"),
     ("pic31.jpg", "pic32.jpg"),
     ("pic41.png", "pic42.jpg"),
