@@ -10,9 +10,9 @@ st.set_page_config(
 question_media = [
     ("vid12.mp4", "pic11.jpeg"),
     ("pic21.jpg", "pic22.jpg"),
-    ("pic31.jpg", "pic32.jpg"),
-    ("pic41.png", "pic42.jpg"),
-    ("vid51.mp4", "pic52.jpg"),
+    ("pic41.png", "pic32.jpg"),
+    ("vid51.mp4", "pic42.jpg"),
+    ("pic52.jpg", "pic31.jpg"),
     ("pic61.jpg", "pic62.jpg"),
     ("pic71.jpg", "pic72.jpg"),
     ("pic81.png", "pic82.png"),
@@ -39,7 +39,7 @@ choices = [
     ["A: Design issue", "B: Assembly mistake of the trigger parts", "C: Product-packaging compatibility issue", "D: Component failure"],
     ["A: Housing", "B: Finger Trigger", "C: Valve", "D: Trigger Cap"],
     ["A: Heat", "B: Time", "C: Pressure"],
-    ["A: Supplier", "B: CM", "C: During Transit"],
+    ["A: Trigger Supplier", "B: Contract Manufacturer (plant)", "C: During Transit between A and B"],
     ["A: Istambul Airport", "B: Shanghai Airport"],
     ["A: Delay the launch for further investigation and successful Performance Qualification with new triggers", 
      "B: No adjustments and redo Performance Qualification with new triggers", 
@@ -77,7 +77,7 @@ explanations = {
 
     "A6": "❌ Incorrect! No evidence, based on temperature loggers.",
     "B6": "❌ Incorrect! No evidence, based on temperature loggers.",
-    "C6": "✅ Correct! Based on elimination. Temperature loggers at CM and supplier indicated no excessive temperature was reached.",
+    "C6": "✅ Correct! Based on elimination. Temperature loggers at Contract Manufacturer and supplier indicated no excessive temperature was reached.",
 
     "A7": "❌ Incorrect! Not Istanbul Airport.",
     "B7": "✅ Correct! Shanghai Airport.",
